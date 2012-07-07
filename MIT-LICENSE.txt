@@ -1,4 +1,4 @@
-jQuery scrollregion plugin
+GoatScroller jQuery scrolling region plugin
 
 Copyright (c) 2012 Brian "Beej Jorgensen" Hall <beej@beej.us>
 
