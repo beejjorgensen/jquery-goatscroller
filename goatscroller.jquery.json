@@ -1,0 +1,25 @@
+{
+    "name": "goatscroller",
+    "version": "1.0",
+    "title": "jQuery.GoatScroller()",
+    "author": {
+        "name": "Brian \"Beej Jorgensen\" Hall",
+        "url": "http://beej.us/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/beej71/jquery-goatscroller/MIT-LICENSE.txt"
+        },
+    ],
+    "dependencies": {
+        "jquery": ">=1.7"
+    },
+    "description": "A simple scrolling panel plugin that supports mouse and touch dragging.",
+    "keywords": [
+        "scrollpane",
+        "scrollpanel",
+        "scrolling"
+    ],
+    "homepage": "https://github.com/beej71/jquery-goatscroller/"
+}
