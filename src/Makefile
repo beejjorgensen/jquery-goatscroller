@@ -1,21 +1,22 @@
-VERSION=1.0
-TARGETS=../jquery.goatscroller-$(VERSION).css \
-	../jquery.goatscroller-$(VERSION).js \
-	../jquery.goatscroller-$(VERSION)-min.css \
-	../jquery.goatscroller-$(VERSION)-min.js
+NAME=jquery.goatscroller
+VERSION=1.0.0
+TARGETS=../$(NAME)-$(VERSION).css \
+	../$(NAME)-$(VERSION).js \
+	../$(NAME)-$(VERSION)-min.css \
+	../$(NAME)-$(VERSION)-min.js
 
 all: $(TARGETS)
 
-../jquery.goatscroller-$(VERSION).css: jquery.goatscroller.css
+../$(NAME)-$(VERSION).css: $(NAME).css
 	cp $< $@
 
-../jquery.goatscroller-$(VERSION).js: jquery.goatscroller.js
+../$(NAME)-$(VERSION).js: $(NAME).js
 	cp $< $@
 
-../jquery.goatscroller-$(VERSION)-min.css: jquery.goatscroller.css
+../$(NAME)-$(VERSION)-min.css: $(NAME).css
 	yuicompressor --type css -o $@ $<
 
-../jquery.goatscroller-$(VERSION)-min.js: jquery.goatscroller.js
+../$(NAME)-$(VERSION)-min.js: $(NAME).js
 	#yuicompressor --type js -o $@ $<
 	#uglifyjs -nc -o $@ $<
 	closure --js $< --js_output_file $@

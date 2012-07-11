@@ -12,8 +12,16 @@ region inside a `<div>`.
 Usage
 -----
 
-Required HTML (IDs can be anything):
+Required HTML:
 
+    <!-- include js and css -->
+    
+    <script src="jquery.goatscroller-1.0.0-min.js" type="text/javascript"></script>
+    <link href="jquery.goatscroller-1.0.0-min.css" rel="stylesheet" type="text/css"/>
+    
+    <-- inner div will scroll around inside outer div -->
+    <-- div IDs can be anything -->
+    
     <div id="frame"><div>I can be scrolled inside the frame!</div></div>
 
 ### Initialize:
@@ -70,8 +78,8 @@ Example
     <script src="jquery-1.7.2.min.js" type="text/javascript"></script>
 
     <!-- include plugin and stylesheet -->
-    <script src="jquery.goatscroller-1.0-min.js" type="text/javascript"></script>
-    <link href="jquery.goatscroller-1.0-min.css" rel="stylesheet" type="text/css"/>
+    <script src="jquery.goatscroller-1.0.0-min.js" type="text/javascript"></script>
+    <link href="jquery.goatscroller-1.0.0-min.css" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript">
     (function() {
