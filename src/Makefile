@@ -1,5 +1,5 @@
 NAME=jquery.goatscroller
-VERSION=1.0.0
+VERSION=1.0.3
 TARGETS=../$(NAME)-$(VERSION).css \
 	../$(NAME)-$(VERSION).js \
 	../$(NAME)-$(VERSION)-min.css \

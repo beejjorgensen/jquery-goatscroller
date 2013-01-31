@@ -65,8 +65,14 @@ function setPosition(frame, container, x, y, duration, complete) {
 		var cwidth = container.outerWidth();
 		var cheight = container.outerHeight();
 
-		x = Math.min(Math.max(x, -(cwidth-fwidth)), 0);
-		y = Math.min(Math.max(y, -(cheight-fheight)), 0);
+		var innerWidth = cwidth - fwidth;
+		var innerHeight = cheight - fheight;
+
+		if (x > 0) { x = 0; }
+		else if (x < -innerWidth) { x = -innerWidth; }
+
+		if (y > 0) { y = 0; }
+		else if (y < -innerHeight) { y = -innerHeight; }
 	}
 
 	if (duration) {
