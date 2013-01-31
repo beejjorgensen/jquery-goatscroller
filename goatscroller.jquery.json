@@ -1,16 +1,17 @@
 {
     "name": "goatscroller",
-    "version": "1.0.0",
-    "title": "jQuery.GoatScroller()",
+    "version": "1.0.2",
+    "title": "GoatScroller",
     "author": {
         "name": "Brian \"Beej Jorgensen\" Hall",
+		"email": "beej@beej.us",
         "url": "http://beej.us/"
     },
     "licenses": [
         {
             "type": "MIT",
             "url": "https://github.com/beej71/jquery-goatscroller/blob/master/MIT-LICENSE.txt"
-        },
+        }
     ],
     "dependencies": {
         "jquery": ">=1.7"
@@ -21,5 +22,6 @@
         "scrollpanel",
         "scrolling"
     ],
-    "homepage": "https://github.com/beej71/jquery-goatscroller/"
+    "homepage": "https://github.com/beej71/jquery-goatscroller/",
+	"demo": "http://beej.us/blog/data/jquery-plugin-scrollregion/"
 }
